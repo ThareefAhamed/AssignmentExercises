@@ -1,0 +1,15 @@
+<div class="outer-container">
+    <div class="inner-container">
+        <div class="mt-3">
+            <h4 style="text-align: center;">Validate the Mobile Number</h4>
+        </div>
+        <div class="row mt-3 d-flex align-items-center justify-content-center">
+            <div class="col-lg-12">
+                <input (change)="validate()" type="number" placeholder="Mobile Number" class="text-box" [(ngModel)]="mobileNumber"/>
+            </div>
+        </div>
+        <div class="mt-5">
+            <h4 style="text-align: center;font-weight: bold;font-size: 25px;" id="result">{{isValid}}</h4>
+        </div>
+    </div>
+</div>

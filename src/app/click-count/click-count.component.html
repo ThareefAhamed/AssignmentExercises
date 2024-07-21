@@ -1,0 +1,19 @@
+<div class="click-container">
+    <div class="inner-container">
+        <div class="mt-3">
+            <h4 style="text-align: center;">Count the Click...!!!</h4>
+        </div>
+        <div class="mt-3">
+            <h2 style="text-align: center;">You have clicked <span
+                    style="color: red;font-weight: bold;font-size: 30px;">{{count}}</span> times..!!</h2>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center mt-5">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <button (click)="onClick()" class="btn btn-success custom-btn">Go..</button>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <button (click)="onReset()" class="btn btn-primary custom-btn">Reset..</button>
+            </div>
+        </div>
+    </div>
+</div>
